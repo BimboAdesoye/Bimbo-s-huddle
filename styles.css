@@ -19,7 +19,7 @@ body {
 }
 
 p {
-    color: var(--Grayish-Blue);
+  color: var(--Grayish-Blue);
 }
 
 h1,
@@ -237,7 +237,7 @@ header {
 }
 
 .footer p {
-    color: white;
+  color: white;
 }
 
 .footer-card {
