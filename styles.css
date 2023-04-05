@@ -273,15 +273,20 @@ header {
   margin-bottom: 4rem;
 }
 
+
 .footer-logo img {
   width: 160px;
 }
 
-.footer-details div {
+.footer-details .change {
   display: flex;
   gap: 1.5rem;
-  align-items: flex-start;
 }
+
+.check {
+    margin-top: 2px;
+}
+
 
 .footer-details span {
   margin-bottom: 10px;
@@ -302,6 +307,17 @@ header {
   gap: 1rem;
   margin-top: 4rem;
   cursor: pointer;
+}
+
+.socials div {
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 1px;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .socials div:hover {
