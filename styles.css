@@ -36,10 +36,14 @@ li {
   border: none;
   width: 90%;
   padding: 0.8rem;
-  /* padding: 0.8rem 4.5rem; */
   border-radius: 30px;
   font-weight: 700;
   font-size: 0.78rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+    background-color: hsl(322, 80%, 76%);
 }
 
 .container {
@@ -73,6 +77,11 @@ header {
   border: none;
   box-shadow: 0 4px 10px rgb(214, 211, 211);
   padding: 0.5rem 2rem;
+  cursor: pointer;
+}
+
+.navbar button:hover {
+    opacity: .5;
 }
 /* End of Navbar */
 
@@ -282,6 +291,11 @@ header {
   justify-content: center;
   gap: 1rem;
   margin-top: 4rem;
+  cursor: pointer;
+}
+
+.socials div:hover {
+    color: var(--pink);
 }
 /* .socials div {
   border: 1px solid white;
@@ -338,7 +352,7 @@ header {
   width: auto; */
 
   .socials {
-    align-self: flex-start;
+    margin-top: 0;
   }
 
   .footer-logo img {
