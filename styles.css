@@ -14,9 +14,9 @@
   box-sizing: border-box;
 }
 
-body {
+/* body {
   font-family: "Open Sans", sans-serif;
-}
+} */
 
 h1,
 h2,
@@ -106,6 +106,7 @@ header {
 
 .hero-content button {
   margin-bottom: 3rem;
+  width: 80%;
 }
 
 .hero-section img {
@@ -200,7 +201,7 @@ header {
   }
 
   .card-text {
-    max-width: 600px;
+    max-width: 470px;
   }
 
   .card-text h3 {
@@ -279,7 +280,7 @@ header {
 
 .footer-content ul li {
   margin-bottom: 1.5rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .footer-end {
@@ -333,7 +334,7 @@ header {
 
   .footer-details {
     flex-basis: 30%;
-    font-size: 0.75rem;
+    font-size: .85rem;
     margin-bottom: 0;
   }
 
