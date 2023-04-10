@@ -123,6 +123,7 @@ header {
   .navbar {
     margin-bottom: 3rem;
   }
+
   .hero-section {
     display: flex;
     gap: 4rem;
@@ -273,20 +274,18 @@ header {
   margin-bottom: 4rem;
 }
 
-
 .footer-logo img {
   width: 160px;
 }
 
 .footer-details .change {
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .check {
-    margin-top: 2px;
+  margin-top: 2px;
 }
-
 
 .footer-details span {
   margin-bottom: 10px;
@@ -310,14 +309,14 @@ header {
 }
 
 .socials div {
-    border: 1px solid white;
-    border-radius: 100%;
-    padding: 1px;
-    height: 2rem;
-    width: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  border: 1px solid white;
+  border-radius: 100%;
+  padding: 1px;
+  height: 2rem;
+  width: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .socials div:hover {
